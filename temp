@@ -1,0 +1,26 @@
+<div class="play-list ">
+    <div class="playlisttop flex ">
+     <div class="  PPN flex">   
+<div class="previous cursor invert">
+    <img id="previous"  alt="Free Previous Icon" loading="lazy" src="https://cdn.iconscout.com/icon/free/png-256/free-previous-2653729-2202541.png?f=webp&amp;w=128" srcset="https://cdn.iconscout.com/icon/free/png-256/free-previous-2653729-2202541.png?f=webp&amp;w=128 1x, https://cdn.iconscout.com/icon/free/png-256/free-previous-2653729-2202541.png?f=webp&amp;w=256 2x" class="thumb_p6OvR">
+</div>
+        <div id="play" class="play bottom cursor">
+            
+            <div  class="circle-containerbottom">
+
+                <img   alt="Free Play Player Arrow Icon" loading="lazy" src="https://cdn.iconscout.com/icon/free/png-256/free-play-player-arrow-stop-sound-30544.png?f=webp&amp;w=128" srcset="https://cdn.iconscout.com/icon/free/png-256/free-play-player-arrow-stop-sound-30544.png?f=webp&amp;w=128 1x, https://cdn.iconscout.com/icon/free/png-256/free-play-player-arrow-stop-sound-30544.png?f=webp&amp;w=256 2x" class="thumb_p6OvR">
+            </div>
+            </div>
+            <div class="next invert cursor">
+                <img id="previous"  src="<img alt="Free Next Icon" loading="lazy" src="https://cdn.iconscout.com/icon/free/png-256/free-next-2653752-2202564.png?f=webp&amp;w=128" srcset="https://cdn.iconscout.com/icon/free/png-256/free-next-2653752-2202564.png?f=webp&amp;w=128 1x, https://cdn.iconscout.com/icon/free/png-256/free-next-2653752-2202564.png?f=webp&amp;w=256 2x" class="thumb_p6OvR" alt="">
+            </div>
+            </div>
+            </div>
+            <div class="songtime">
+                
+            </div>
+            <div class="playcircle">
+
+            </div>
+            
+        </div>
