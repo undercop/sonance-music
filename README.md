@@ -17,6 +17,8 @@ Welcome to Sonance Music App! A web-based music player that allows you to browse
 ```sh
 git clone https://github.com/undercop/sonance-music.git
 
+cd sonance-music
+```
 
 ## Usage
 
