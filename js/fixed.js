@@ -22,18 +22,18 @@ async function getSongs(folder) {
     currFolder = folder;
     let a = await fetch(`${currFolder}`);
     let response = await a.text();
-console.log(response)
+// console.log(response)
     let div = document.createElement("div")
     div.innerHTML = response;
     let as = div.getElementsByTagName("a")
-console.log(as)
+// console.log(as)
     songs = []
     for (let i = 0; i < as.length; i++) {
         const element = as[i];
         if (element.href.endsWith(".mp3"))
             songs.push(element.href.split(`${currFolder}`)[1])
     }
-console.log(songs)
+// console.log(songs)
     let songUL = document.querySelector(".songlists").getElementsByTagName("ul")[0];
     songUL.innerHTML = ""; // Clear the existing list items
 
@@ -120,7 +120,9 @@ async function displayfolders() {
   
     Array.from(anchor).forEach(async (e) => {
       if (e.href.includes("/songs")&& !e.href.includes(".htaccess")) {
-        let folder = e.href.split("/").slice(-2)[0];
+        let folder = e.href.split("/").slice(-1)[0];
+        console.log("hii");
+        console.log(folder);
         // fetching info in each playlist---
         let a = await fetch(`songs/${folder}/info.json`);
         let response = await a.json();
