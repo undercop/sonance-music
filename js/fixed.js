@@ -120,7 +120,7 @@ async function displayfolders() {
   
     Array.from(anchor).forEach(async (e) => {
       if (e.href.includes("/songs")&& !e.href.includes(".htaccess")) {
-        let folder = e.href.split("/").slice(-1)[0];
+        let folder = e.href.split("/").slice(-2)[0];
         console.log("hii");
         console.log(folder);
         // fetching info in each playlist---
